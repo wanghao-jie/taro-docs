@@ -105,7 +105,7 @@ class App extends Component {
 | cursor | `number` |  | 否 | 指定focus时的光标位置 |
 | selectionStart | `number` | `-1` | 否 | 光标起始位置，自动聚集时有效，需与selection-end搭配使用 |
 | selectionEnd | `number` | `-1` | 否 | 光标结束位置，自动聚集时有效，需与selection-start搭配使用 |
-| adjustPosition | `boolean` | `false` | 否 | 键盘弹起时，是否自动上推页面 |
+| adjustPosition | `boolean` | `true` | 否 | 键盘弹起时，是否自动上推页面 |
 | holdKeyboard | `boolean` | `false` | 否 | focus 时，点击页面的时候不收起键盘 |
 | alwaysEmbed | `boolean` | `false` | 否 | 强制 input 处于同层状态，默认 focus 时 input 会切到非同层状态 (仅在 iOS 下生效) |
 | safePasswordCertPath | `string` |  | 否 | 安全键盘加密公钥的路径，只支持包内路径 |
